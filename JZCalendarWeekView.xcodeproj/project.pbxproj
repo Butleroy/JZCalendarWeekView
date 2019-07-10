@@ -10,32 +10,33 @@
 		1F2F29B522959B16004B7CA1 /* JZBaseWeekViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F29B422959B16004B7CA1 /* JZBaseWeekViewTests.swift */; };
 		1F2F29B722959B6C004B7CA1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F29B622959B6C004B7CA1 /* Constants.swift */; };
 		1F2F29B922959C1E004B7CA1 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F29B822959C1E004B7CA1 /* Helpers.swift */; };
-		1FB6140D2130FE7400F08ACD /* JZCurrentTimelinePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB6140C2130FE7400F08ACD /* JZCurrentTimelinePage.swift */; };
+		63996A0622D5F05500140827 /* JZLongPressWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639969EC22D5F05500140827 /* JZLongPressWeekView.swift */; };
+		63996A0722D5F05500140827 /* JZAllDayEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639969ED22D5F05500140827 /* JZAllDayEvent.swift */; };
+		63996A0822D5F05500140827 /* JZWeekViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639969EE22D5F05500140827 /* JZWeekViewHelper.swift */; };
+		63996A0922D5F05500140827 /* JZLongPressEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639969EF22D5F05500140827 /* JZLongPressEventCell.swift */; };
+		63996A0A22D5F05500140827 /* JZWeekViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639969F022D5F05500140827 /* JZWeekViewFlowLayout.swift */; };
+		63996A0B22D5F05500140827 /* JZWeekViewColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639969F222D5F05500140827 /* JZWeekViewColors.swift */; };
+		63996A0C22D5F05500140827 /* WeakTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639969F322D5F05500140827 /* WeakTimer.swift */; };
+		63996A0D22D5F05500140827 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639969F422D5F05500140827 /* Extensions.swift */; };
+		63996A0E22D5F05500140827 /* JZCalendarWeekView.h in Headers */ = {isa = PBXBuildFile; fileRef = 639969F522D5F05500140827 /* JZCalendarWeekView.h */; };
+		63996A0F22D5F05500140827 /* JZBaseWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639969F622D5F05500140827 /* JZBaseWeekView.swift */; };
+		63996A1022D5F05500140827 /* JZBaseEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639969F722D5F05500140827 /* JZBaseEvent.swift */; };
+		63996A1122D5F05500140827 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 639969F822D5F05500140827 /* Info.plist */; };
+		63996A1222D5F05500140827 /* JZColumnHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639969FA22D5F05500140827 /* JZColumnHeader.swift */; };
+		63996A1322D5F05500140827 /* JZCornerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639969FB22D5F05500140827 /* JZCornerHeader.swift */; };
+		63996A1422D5F05500140827 /* JZRowHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639969FC22D5F05500140827 /* JZRowHeader.swift */; };
+		63996A1522D5F05500140827 /* JZAllDayHeaderBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639969FD22D5F05500140827 /* JZAllDayHeaderBackground.swift */; };
+		63996A1622D5F05500140827 /* JZColumnHeaderBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639969FE22D5F05500140827 /* JZColumnHeaderBackground.swift */; };
+		63996A1722D5F05500140827 /* JZCurrentTimelinePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639969FF22D5F05500140827 /* JZCurrentTimelinePage.swift */; };
+		63996A1822D5F05500140827 /* JZGridLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63996A0022D5F05500140827 /* JZGridLine.swift */; };
+		63996A1922D5F05500140827 /* JZAllDayCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63996A0122D5F05500140827 /* JZAllDayCorner.swift */; };
+		63996A1A22D5F05500140827 /* JZCurrentTimelineSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63996A0222D5F05500140827 /* JZCurrentTimelineSection.swift */; };
+		63996A1B22D5F05500140827 /* JZRowHeaderBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63996A0322D5F05500140827 /* JZRowHeaderBackground.swift */; };
+		63996A1C22D5F05500140827 /* JZAllDayHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63996A0422D5F05500140827 /* JZAllDayHeader.swift */; };
+		63996A1D22D5F05500140827 /* JZCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63996A0522D5F05500140827 /* JZCollectionView.swift */; };
 		8E023C78206C6E4B00C523BE /* JZLongPressWeekViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E023C77206C6E4B00C523BE /* JZLongPressWeekViewTests.swift */; };
 		8E023C7A206C6E4B00C523BE /* JZCalendarWeekView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1BA94A206B4329007BE13C /* JZCalendarWeekView.framework */; };
-		8E023C84206C732300C523BE /* JZBaseEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E023C83206C732300C523BE /* JZBaseEvent.swift */; };
-		8E023C86206C956F00C523BE /* JZWeekViewColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E023C85206C956F00C523BE /* JZWeekViewColors.swift */; };
-		8E1BA94F206B4329007BE13C /* JZCalendarWeekView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E1BA94D206B4329007BE13C /* JZCalendarWeekView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E1BA957206B47DA007BE13C /* JZBaseWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1BA956206B47DA007BE13C /* JZBaseWeekView.swift */; };
-		8E1BA95B206B4826007BE13C /* JZWeekViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1BA95A206B4826007BE13C /* JZWeekViewFlowLayout.swift */; };
-		8E1BA960206B4B84007BE13C /* JZColumnHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1BA95F206B4B84007BE13C /* JZColumnHeader.swift */; };
-		8E1BA962206B4B99007BE13C /* JZRowHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1BA961206B4B99007BE13C /* JZRowHeader.swift */; };
-		8E1BA964206B4E82007BE13C /* JZCornerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1BA963206B4E82007BE13C /* JZCornerHeader.swift */; };
-		8E1BA966206B4F0B007BE13C /* JZGridLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1BA965206B4F0B007BE13C /* JZGridLine.swift */; };
-		8E1BA968206B4F40007BE13C /* JZCurrentTimelineSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1BA967206B4F40007BE13C /* JZCurrentTimelineSection.swift */; };
-		8E1BA96A206B5350007BE13C /* JZWeekViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1BA969206B5350007BE13C /* JZWeekViewHelper.swift */; };
-		8E1BA96C206B5B3F007BE13C /* JZColumnHeaderBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1BA96B206B5B3F007BE13C /* JZColumnHeaderBackground.swift */; };
-		8E1BA96E206B5B55007BE13C /* JZRowHeaderBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1BA96D206B5B55007BE13C /* JZRowHeaderBackground.swift */; };
-		8E1BA972206B61B7007BE13C /* JZLongPressEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1BA971206B61B7007BE13C /* JZLongPressEventCell.swift */; };
-		8E21E8B020916A96002D72D0 /* JZLongPressWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E21E8AF20916A96002D72D0 /* JZLongPressWeekView.swift */; };
-		8E40B2E020B65C4600FFEB68 /* JZAllDayEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E40B2DF20B65C4600FFEB68 /* JZAllDayEvent.swift */; };
-		8E478FA320846A8000668F05 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E478FA220846A8000668F05 /* Extensions.swift */; };
 		8E5BB3FB2073154F00FA853F /* WeekViewHelperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5BB3FA2073154F00FA853F /* WeekViewHelperTest.swift */; };
-		8E99A0A22134E84800415071 /* JZCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E99A0A12134E84800415071 /* JZCollectionView.swift */; };
-		8EEB40DA214B8DDE0027D45E /* WeakTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEB40D9214B8DDE0027D45E /* WeakTimer.swift */; };
-		8EF7EBCD20A55C8E00D5CEEA /* JZAllDayCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7EBCC20A55C8E00D5CEEA /* JZAllDayCorner.swift */; };
-		8EF7EBCF20A55CF900D5CEEA /* JZAllDayHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7EBCE20A55CF900D5CEEA /* JZAllDayHeader.swift */; };
-		8EF7EBD120A55D1000D5CEEA /* JZAllDayHeaderBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7EBD020A55D1000D5CEEA /* JZAllDayHeaderBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,35 +53,35 @@
 		1F2F29B422959B16004B7CA1 /* JZBaseWeekViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZBaseWeekViewTests.swift; sourceTree = "<group>"; };
 		1F2F29B622959B6C004B7CA1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1F2F29B822959C1E004B7CA1 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		1FB6140C2130FE7400F08ACD /* JZCurrentTimelinePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZCurrentTimelinePage.swift; sourceTree = "<group>"; };
+		639969EC22D5F05500140827 /* JZLongPressWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZLongPressWeekView.swift; sourceTree = "<group>"; };
+		639969ED22D5F05500140827 /* JZAllDayEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZAllDayEvent.swift; sourceTree = "<group>"; };
+		639969EE22D5F05500140827 /* JZWeekViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZWeekViewHelper.swift; sourceTree = "<group>"; };
+		639969EF22D5F05500140827 /* JZLongPressEventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZLongPressEventCell.swift; sourceTree = "<group>"; };
+		639969F022D5F05500140827 /* JZWeekViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZWeekViewFlowLayout.swift; sourceTree = "<group>"; };
+		639969F222D5F05500140827 /* JZWeekViewColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZWeekViewColors.swift; sourceTree = "<group>"; };
+		639969F322D5F05500140827 /* WeakTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakTimer.swift; sourceTree = "<group>"; };
+		639969F422D5F05500140827 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		639969F522D5F05500140827 /* JZCalendarWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZCalendarWeekView.h; sourceTree = "<group>"; };
+		639969F622D5F05500140827 /* JZBaseWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZBaseWeekView.swift; sourceTree = "<group>"; };
+		639969F722D5F05500140827 /* JZBaseEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZBaseEvent.swift; sourceTree = "<group>"; };
+		639969F822D5F05500140827 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639969FA22D5F05500140827 /* JZColumnHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZColumnHeader.swift; sourceTree = "<group>"; };
+		639969FB22D5F05500140827 /* JZCornerHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZCornerHeader.swift; sourceTree = "<group>"; };
+		639969FC22D5F05500140827 /* JZRowHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZRowHeader.swift; sourceTree = "<group>"; };
+		639969FD22D5F05500140827 /* JZAllDayHeaderBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZAllDayHeaderBackground.swift; sourceTree = "<group>"; };
+		639969FE22D5F05500140827 /* JZColumnHeaderBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZColumnHeaderBackground.swift; sourceTree = "<group>"; };
+		639969FF22D5F05500140827 /* JZCurrentTimelinePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZCurrentTimelinePage.swift; sourceTree = "<group>"; };
+		63996A0022D5F05500140827 /* JZGridLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZGridLine.swift; sourceTree = "<group>"; };
+		63996A0122D5F05500140827 /* JZAllDayCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZAllDayCorner.swift; sourceTree = "<group>"; };
+		63996A0222D5F05500140827 /* JZCurrentTimelineSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZCurrentTimelineSection.swift; sourceTree = "<group>"; };
+		63996A0322D5F05500140827 /* JZRowHeaderBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZRowHeaderBackground.swift; sourceTree = "<group>"; };
+		63996A0422D5F05500140827 /* JZAllDayHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZAllDayHeader.swift; sourceTree = "<group>"; };
+		63996A0522D5F05500140827 /* JZCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZCollectionView.swift; sourceTree = "<group>"; };
 		8E023C75206C6E4B00C523BE /* JZCalendarWeekViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZCalendarWeekViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E023C77206C6E4B00C523BE /* JZLongPressWeekViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZLongPressWeekViewTests.swift; sourceTree = "<group>"; };
 		8E023C79206C6E4B00C523BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E023C83206C732300C523BE /* JZBaseEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZBaseEvent.swift; sourceTree = "<group>"; };
-		8E023C85206C956F00C523BE /* JZWeekViewColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZWeekViewColors.swift; sourceTree = "<group>"; };
 		8E1BA94A206B4329007BE13C /* JZCalendarWeekView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JZCalendarWeekView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E1BA94D206B4329007BE13C /* JZCalendarWeekView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZCalendarWeekView.h; sourceTree = "<group>"; };
-		8E1BA94E206B4329007BE13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E1BA956206B47DA007BE13C /* JZBaseWeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZBaseWeekView.swift; sourceTree = "<group>"; };
-		8E1BA95A206B4826007BE13C /* JZWeekViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZWeekViewFlowLayout.swift; sourceTree = "<group>"; };
-		8E1BA95F206B4B84007BE13C /* JZColumnHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZColumnHeader.swift; sourceTree = "<group>"; };
-		8E1BA961206B4B99007BE13C /* JZRowHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZRowHeader.swift; sourceTree = "<group>"; };
-		8E1BA963206B4E82007BE13C /* JZCornerHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZCornerHeader.swift; sourceTree = "<group>"; };
-		8E1BA965206B4F0B007BE13C /* JZGridLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZGridLine.swift; sourceTree = "<group>"; };
-		8E1BA967206B4F40007BE13C /* JZCurrentTimelineSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZCurrentTimelineSection.swift; sourceTree = "<group>"; };
-		8E1BA969206B5350007BE13C /* JZWeekViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZWeekViewHelper.swift; sourceTree = "<group>"; };
-		8E1BA96B206B5B3F007BE13C /* JZColumnHeaderBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZColumnHeaderBackground.swift; sourceTree = "<group>"; };
-		8E1BA96D206B5B55007BE13C /* JZRowHeaderBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZRowHeaderBackground.swift; sourceTree = "<group>"; };
-		8E1BA971206B61B7007BE13C /* JZLongPressEventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZLongPressEventCell.swift; sourceTree = "<group>"; };
-		8E21E8AF20916A96002D72D0 /* JZLongPressWeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZLongPressWeekView.swift; sourceTree = "<group>"; };
-		8E40B2DF20B65C4600FFEB68 /* JZAllDayEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZAllDayEvent.swift; sourceTree = "<group>"; };
-		8E478FA220846A8000668F05 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		8E5BB3FA2073154F00FA853F /* WeekViewHelperTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekViewHelperTest.swift; sourceTree = "<group>"; };
-		8E99A0A12134E84800415071 /* JZCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZCollectionView.swift; sourceTree = "<group>"; };
-		8EEB40D9214B8DDE0027D45E /* WeakTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakTimer.swift; sourceTree = "<group>"; };
-		8EF7EBCC20A55C8E00D5CEEA /* JZAllDayCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZAllDayCorner.swift; sourceTree = "<group>"; };
-		8EF7EBCE20A55CF900D5CEEA /* JZAllDayHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZAllDayHeader.swift; sourceTree = "<group>"; };
-		8EF7EBD020A55D1000D5CEEA /* JZAllDayHeaderBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZAllDayHeaderBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +103,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		639969EB22D5F05500140827 /* JZCalendarWeekView */ = {
+			isa = PBXGroup;
+			children = (
+				639969EC22D5F05500140827 /* JZLongPressWeekView.swift */,
+				639969ED22D5F05500140827 /* JZAllDayEvent.swift */,
+				639969EE22D5F05500140827 /* JZWeekViewHelper.swift */,
+				639969EF22D5F05500140827 /* JZLongPressEventCell.swift */,
+				639969F022D5F05500140827 /* JZWeekViewFlowLayout.swift */,
+				639969F122D5F05500140827 /* Utils */,
+				639969F522D5F05500140827 /* JZCalendarWeekView.h */,
+				639969F622D5F05500140827 /* JZBaseWeekView.swift */,
+				639969F722D5F05500140827 /* JZBaseEvent.swift */,
+				639969F822D5F05500140827 /* Info.plist */,
+				639969F922D5F05500140827 /* ReusableViews */,
+				63996A0522D5F05500140827 /* JZCollectionView.swift */,
+			);
+			name = JZCalendarWeekView;
+			path = Sources/JZCalendarWeekView;
+			sourceTree = "<group>";
+		};
+		639969F122D5F05500140827 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				639969F222D5F05500140827 /* JZWeekViewColors.swift */,
+				639969F322D5F05500140827 /* WeakTimer.swift */,
+				639969F422D5F05500140827 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		639969F922D5F05500140827 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				639969FA22D5F05500140827 /* JZColumnHeader.swift */,
+				639969FB22D5F05500140827 /* JZCornerHeader.swift */,
+				639969FC22D5F05500140827 /* JZRowHeader.swift */,
+				639969FD22D5F05500140827 /* JZAllDayHeaderBackground.swift */,
+				639969FE22D5F05500140827 /* JZColumnHeaderBackground.swift */,
+				639969FF22D5F05500140827 /* JZCurrentTimelinePage.swift */,
+				63996A0022D5F05500140827 /* JZGridLine.swift */,
+				63996A0122D5F05500140827 /* JZAllDayCorner.swift */,
+				63996A0222D5F05500140827 /* JZCurrentTimelineSection.swift */,
+				63996A0322D5F05500140827 /* JZRowHeaderBackground.swift */,
+				63996A0422D5F05500140827 /* JZAllDayHeader.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
 		8E023C76206C6E4B00C523BE /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,7 +167,7 @@
 		8E1BA940206B4329007BE13C = {
 			isa = PBXGroup;
 			children = (
-				8E1BA94C206B4329007BE13C /* JZCalendarWeekView */,
+				639969EB22D5F05500140827 /* JZCalendarWeekView */,
 				8E023C76206C6E4B00C523BE /* Tests */,
 				8E1BA94B206B4329007BE13C /* Products */,
 			);
@@ -133,53 +182,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E1BA94C206B4329007BE13C /* JZCalendarWeekView */ = {
-			isa = PBXGroup;
-			children = (
-				8E1BA95A206B4826007BE13C /* JZWeekViewFlowLayout.swift */,
-				8E99A0A12134E84800415071 /* JZCollectionView.swift */,
-				8E1BA956206B47DA007BE13C /* JZBaseWeekView.swift */,
-				8E21E8AF20916A96002D72D0 /* JZLongPressWeekView.swift */,
-				8E1BA971206B61B7007BE13C /* JZLongPressEventCell.swift */,
-				8E023C83206C732300C523BE /* JZBaseEvent.swift */,
-				8E40B2DF20B65C4600FFEB68 /* JZAllDayEvent.swift */,
-				8E1BA969206B5350007BE13C /* JZWeekViewHelper.swift */,
-				8E1BA95C206B4AD9007BE13C /* ReusableViews */,
-				8E1BA955206B4687007BE13C /* Utils */,
-				8E1BA94D206B4329007BE13C /* JZCalendarWeekView.h */,
-				8E1BA94E206B4329007BE13C /* Info.plist */,
-			);
-			path = JZCalendarWeekView;
-			sourceTree = "<group>";
-		};
-		8E1BA955206B4687007BE13C /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				8E023C85206C956F00C523BE /* JZWeekViewColors.swift */,
-				8E478FA220846A8000668F05 /* Extensions.swift */,
-				8EEB40D9214B8DDE0027D45E /* WeakTimer.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		8E1BA95C206B4AD9007BE13C /* ReusableViews */ = {
-			isa = PBXGroup;
-			children = (
-				8E1BA95F206B4B84007BE13C /* JZColumnHeader.swift */,
-				8E1BA961206B4B99007BE13C /* JZRowHeader.swift */,
-				8E1BA963206B4E82007BE13C /* JZCornerHeader.swift */,
-				8E1BA965206B4F0B007BE13C /* JZGridLine.swift */,
-				1FB6140C2130FE7400F08ACD /* JZCurrentTimelinePage.swift */,
-				8E1BA967206B4F40007BE13C /* JZCurrentTimelineSection.swift */,
-				8E1BA96B206B5B3F007BE13C /* JZColumnHeaderBackground.swift */,
-				8E1BA96D206B5B55007BE13C /* JZRowHeaderBackground.swift */,
-				8EF7EBCC20A55C8E00D5CEEA /* JZAllDayCorner.swift */,
-				8EF7EBCE20A55CF900D5CEEA /* JZAllDayHeader.swift */,
-				8EF7EBD020A55D1000D5CEEA /* JZAllDayHeaderBackground.swift */,
-			);
-			path = ReusableViews;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -187,7 +189,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E1BA94F206B4329007BE13C /* JZCalendarWeekView.h in Headers */,
+				63996A0E22D5F05500140827 /* JZCalendarWeekView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63996A1122D5F05500140827 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,28 +306,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E99A0A22134E84800415071 /* JZCollectionView.swift in Sources */,
-				8EEB40DA214B8DDE0027D45E /* WeakTimer.swift in Sources */,
-				8E1BA96C206B5B3F007BE13C /* JZColumnHeaderBackground.swift in Sources */,
-				8E478FA320846A8000668F05 /* Extensions.swift in Sources */,
-				1FB6140D2130FE7400F08ACD /* JZCurrentTimelinePage.swift in Sources */,
-				8EF7EBCF20A55CF900D5CEEA /* JZAllDayHeader.swift in Sources */,
-				8E1BA95B206B4826007BE13C /* JZWeekViewFlowLayout.swift in Sources */,
-				8E40B2E020B65C4600FFEB68 /* JZAllDayEvent.swift in Sources */,
-				8E1BA968206B4F40007BE13C /* JZCurrentTimelineSection.swift in Sources */,
-				8E1BA960206B4B84007BE13C /* JZColumnHeader.swift in Sources */,
-				8E023C84206C732300C523BE /* JZBaseEvent.swift in Sources */,
-				8E1BA964206B4E82007BE13C /* JZCornerHeader.swift in Sources */,
-				8E1BA96E206B5B55007BE13C /* JZRowHeaderBackground.swift in Sources */,
-				8EF7EBCD20A55C8E00D5CEEA /* JZAllDayCorner.swift in Sources */,
-				8E1BA972206B61B7007BE13C /* JZLongPressEventCell.swift in Sources */,
-				8E1BA966206B4F0B007BE13C /* JZGridLine.swift in Sources */,
-				8E1BA957206B47DA007BE13C /* JZBaseWeekView.swift in Sources */,
-				8E21E8B020916A96002D72D0 /* JZLongPressWeekView.swift in Sources */,
-				8EF7EBD120A55D1000D5CEEA /* JZAllDayHeaderBackground.swift in Sources */,
-				8E023C86206C956F00C523BE /* JZWeekViewColors.swift in Sources */,
-				8E1BA96A206B5350007BE13C /* JZWeekViewHelper.swift in Sources */,
-				8E1BA962206B4B99007BE13C /* JZRowHeader.swift in Sources */,
+				63996A0C22D5F05500140827 /* WeakTimer.swift in Sources */,
+				63996A1722D5F05500140827 /* JZCurrentTimelinePage.swift in Sources */,
+				63996A1822D5F05500140827 /* JZGridLine.swift in Sources */,
+				63996A1C22D5F05500140827 /* JZAllDayHeader.swift in Sources */,
+				63996A1B22D5F05500140827 /* JZRowHeaderBackground.swift in Sources */,
+				63996A1A22D5F05500140827 /* JZCurrentTimelineSection.swift in Sources */,
+				63996A1422D5F05500140827 /* JZRowHeader.swift in Sources */,
+				63996A1322D5F05500140827 /* JZCornerHeader.swift in Sources */,
+				63996A0A22D5F05500140827 /* JZWeekViewFlowLayout.swift in Sources */,
+				63996A0922D5F05500140827 /* JZLongPressEventCell.swift in Sources */,
+				63996A1D22D5F05500140827 /* JZCollectionView.swift in Sources */,
+				63996A0F22D5F05500140827 /* JZBaseWeekView.swift in Sources */,
+				63996A0D22D5F05500140827 /* Extensions.swift in Sources */,
+				63996A0622D5F05500140827 /* JZLongPressWeekView.swift in Sources */,
+				63996A0822D5F05500140827 /* JZWeekViewHelper.swift in Sources */,
+				63996A0B22D5F05500140827 /* JZWeekViewColors.swift in Sources */,
+				63996A1622D5F05500140827 /* JZColumnHeaderBackground.swift in Sources */,
+				63996A1922D5F05500140827 /* JZAllDayCorner.swift in Sources */,
+				63996A0722D5F05500140827 /* JZAllDayEvent.swift in Sources */,
+				63996A1222D5F05500140827 /* JZColumnHeader.swift in Sources */,
+				63996A1022D5F05500140827 /* JZBaseEvent.swift in Sources */,
+				63996A1522D5F05500140827 /* JZAllDayHeaderBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +345,7 @@
 		8E023C7D206C6E4B00C523BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XRYH9M2JN7;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -356,6 +360,7 @@
 		8E023C7E206C6E4B00C523BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XRYH9M2JN7;
 				INFOPLIST_FILE = Tests/Info.plist;
