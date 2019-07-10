@@ -5,6 +5,7 @@
 //  Created by Jeff Zhang on 28/3/18.
 //  Inspired and followed by WRCalendarView (https://github.com/wayfinders/WRCalendarView)
 //
+import UIKit
 
 public protocol WeekViewFlowLayoutDelegate: class {
     /// Get the date for given section

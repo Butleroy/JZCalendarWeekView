@@ -5,7 +5,7 @@
 //  Created by Jeff Zhang on 28/3/18.
 //  Copyright © 2018 Jeff Zhang. All rights reserved.
 //
-
+import UIKit
 public protocol JZBaseViewDelegate: class {
     
     /// When initDate changed, this function will be called. You can get the current date by adding numOfDays on initDate

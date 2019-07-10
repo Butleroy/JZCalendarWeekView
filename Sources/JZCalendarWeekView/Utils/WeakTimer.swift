@@ -8,7 +8,7 @@
 
 // Thanks for https://gist.github.com/Visput/d40c5ceaefbc50c7377597ba0865c9df
 
-import Foundation
+import UIKit
 
 final class WeakTimer {
     
