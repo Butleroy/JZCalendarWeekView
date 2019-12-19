@@ -462,7 +462,7 @@ extension JZLongPressWeekView: UIGestureRecognizerDelegate {
             
             self.longPressView.removeFromSuperview()
             if currentLongPressType == .addNew {
-                longPressDelegate?.weekView(self, didEndAddNewLongPressAt: longPressViewStartDate, point: pointInCollectionView)
+                longPressDelegate?.weekView(self, didEndAddNewLongPressAt: longPressViewStartDate, point: pointInSelfView)
             } else if currentLongPressType == .move {
                 longPressDelegate?.weekView(self, editingEvent: currentEditingInfo.event, didEndMoveLongPressAt: longPressViewStartDate)
             }
