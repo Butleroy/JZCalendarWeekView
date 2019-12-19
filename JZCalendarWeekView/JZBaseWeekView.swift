@@ -504,10 +504,11 @@ extension JZBaseWeekView: UICollectionViewDelegate, UICollectionViewDelegateFlow
         }
     }
     
-    @available(iOS 13.0, *)
+    #if targetEnvironment(macCatalyst)
     open func collectionView(_ collectionView: UICollectionView, contextMenuConfigurationForItemAt indexPath: IndexPath, point: CGPoint) -> UIContextMenuConfiguration? {
         return nil
     }
+    #endif
     
     open func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         // Only check when scroll direction is nil to ensure the direction for this scroll before it ends
