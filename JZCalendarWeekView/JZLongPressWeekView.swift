@@ -15,7 +15,7 @@ public protocol JZLongPressViewDelegate: class {
     /// - Parameters:
     ///   - weekView: current long pressed JZLongPressWeekView
     ///   - startDate: the startDate of the event when gesture ends
-    func weekView(_ weekView: JZLongPressWeekView, didEndAddNewLongPressAt startDate: Date)
+    func weekView(_ weekView: JZLongPressWeekView, didEndAddNewLongPressAt startDate: Date, point: CGPoint)
     
     /// When Move long press gesture ends, this function will be called.
     /// You should handle what should be done after editing (moving) a existed event.
@@ -55,7 +55,7 @@ public protocol JZLongPressViewDataSource: class {
 extension JZLongPressViewDelegate {
     // Keep them optional
     public func weekView(_ weekView: JZLongPressWeekView, longPressType: JZLongPressWeekView.LongPressType, didCancelLongPressAt startDate: Date) {}
-    public func weekView(_ weekView: JZLongPressWeekView, didEndAddNewLongPressAt startDate: Date) {}
+    public func weekView(_ weekView: JZLongPressWeekView, didEndAddNewLongPressAt startDate: Date, point: CGPoint) {}
     public func weekView(_ weekView: JZLongPressWeekView, editingEvent: JZBaseEvent, didEndMoveLongPressAt startDate: Date) {}
 }
 
@@ -462,7 +462,7 @@ extension JZLongPressWeekView: UIGestureRecognizerDelegate {
             
             self.longPressView.removeFromSuperview()
             if currentLongPressType == .addNew {
-                longPressDelegate?.weekView(self, didEndAddNewLongPressAt: longPressViewStartDate)
+                longPressDelegate?.weekView(self, didEndAddNewLongPressAt: longPressViewStartDate, point: pointInCollectionView)
             } else if currentLongPressType == .move {
                 longPressDelegate?.weekView(self, editingEvent: currentEditingInfo.event, didEndMoveLongPressAt: longPressViewStartDate)
             }
