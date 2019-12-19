@@ -504,6 +504,9 @@ extension JZBaseWeekView: UICollectionViewDelegate, UICollectionViewDelegateFlow
         }
     }
     
+    open func collectionView(_ collectionView: UICollectionView, contextMenuConfigurationForItemAt indexPath: IndexPath, point: CGPoint) -> UIContextMenuConfiguration? {
+    }
+    
     open func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         // Only check when scroll direction is nil to ensure the direction for this scroll before it ends
         // Because if swipe again before scroll ends, this method will be called again but the direction should be the same
