@@ -187,7 +187,7 @@ class JZBaseWeekViewTests: XCTestCase {
         let initDate = testDates[2]!
         let lastDate = testDates[10]!
         
-        let sectionWidth = baseWeekView.flowLayout.sectionWidth!
+        let sectionWidth = baseWeekView.flowLayout.sectionWidth
         
         // Assume startDate should be eariler than endDate
         func testbaseWeekView() {

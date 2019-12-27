@@ -233,7 +233,7 @@ open class JZLongPressWeekView: JZBaseWeekView {
             switch scrollType! {
             case .sectionScroll:
                 let scrollSections: CGFloat = direction == .left ? -1 : 1
-                contentOffsetX = currentOffset.x - flowLayout.sectionWidth! * scrollSections
+                contentOffsetX = currentOffset.x - flowLayout.sectionWidth * scrollSections
             case .pageScroll:
                 contentOffsetX = direction == .left ? contentViewWidth * 2 : 0
             }
