@@ -24,7 +24,7 @@ open class JZWeekViewFlowLayout: UICollectionViewFlowLayout {
     var rowHeaderWidth: CGFloat!
     var columnHeaderHeight: CGFloat!
     var allDayHeaderHeight: CGFloat = 0
-    public var sectionWidth: CGFloat!
+    public var sectionWidth: CGFloat = 0
     public var hourGridDivision: JZHourGridDivision!
     var minuteHeight: CGFloat { return hourHeight / 60 }
     
